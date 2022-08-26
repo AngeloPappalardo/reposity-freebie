@@ -7,28 +7,53 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <div class="container">
-      <div class="container-header">
-        <header class="header">
-          <div class="logo">
-            <p>&gt</p>
-          </div>
-          <div class="responsiv">
-            <h2>macode.</h2>
-          </div>
-          <input class="menu-btn" id="menu-btn" type="checkbox" />
-          <label for="menu-btn" class="menu-icon">
-            <span class="nav-icon"></span>
-          </label>
-          <ul class="menu">
-            <li><a href="/">Tutorials</a></li>
-            <li><a href="/">· Case studies</a></li>
-            <li><a href="/">· Resources</a></li>
-          </ul>
-        </header>
+    <header class="header">
+      <div class="container">
+        <div class="logo-container">
+          <img src="/img/logo.png" class="logo" alt="logo" />
+          <p class="logo-text">macode.</p>
+        </div>
+        <ul class="menu">
+          <li><a href="/">Tutorials</a></li>
+          <li><a href="/">· Case studies</a></li>
+          <li><a href="/">· Resources</a></li>
+        </ul>
+        <input class="menu-btn" id="menu-btn" type="checkbox" />
+        <label for="menu-btn" class="menu-icon">
+          <span class="nav-icon"></span>
+        </label>
       </div>
+    </header>
+    <section class="hero-banner">
+      <div class="container">
+        <div class="hero-banner-texts">
+          <h1 class="title hero-banner-title">
+            Improve your <br />
+            skills by <span class="code"> &lt/&gt</span> study <br />
+            with coding
+          </h1>
+          <img src="/img/lines.png" alt="lines" />
+          <p class="hero-banner-description">
+            Create, launch, and iterate on new <br />
+            marketing campaigns without distracting <br />
+            your product team.
+          </p>
+          <a href="/" class="button">
+            <span>Get started</span>
+            <img src="/img/arrow.png" alt="arrow" />
+          </a>
+        </div>
+        <div class="hero-banner-image">
+          <img src="/img/melo.png" alt="melo" />
+        </div>
+      </div>
+    </section>
+    <!-- <div class="container">
       <div class="container-row">
         <div class="container-h1">
           <h1>
@@ -85,6 +110,6 @@
       <img src="/img/Component 8.png" alt="EDX">
       <img src="/img/Component 9.png" alt="COURSERA">
       <img src="/img/Component 10.png" alt="UDEMI">
-    </div>
+    </div> -->
   </body>
 </html>
