@@ -94,7 +94,7 @@
 }
 
 html {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: 400;
   font-size: 16px;
 }
@@ -151,12 +151,9 @@ img {
 .button img {
   margin-left: 20px;
 }
-
-.hero-banner {
-}
-
 .hero-banner .container {
   display: flex;
+  background-color: #f4f4f4;
 }
 .hero-banner .container > div {
   width: 50%;
@@ -179,6 +176,24 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.hero-banner-name img {
+  margin: 18px;
+  margin-left: 65px;
+}
+.component .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+.component .container >img {
+  width: 20%;
+  height: 100%;
+}
+.features .container {
+  background-color: #f4f4f4;
 }
 
 @media screen and (max-width: 1439px) {
@@ -233,7 +248,7 @@ img {
   }
 
   .button img {
-    widht: 35px;
+    width: 35px;
     height: 35px;
   }
   .header {
@@ -252,5 +267,7 @@ img {
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 576px) {}
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 420px) {
+}
