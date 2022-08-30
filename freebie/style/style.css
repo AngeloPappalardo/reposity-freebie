@@ -188,14 +188,35 @@ img {
   padding-top: 78px;
   padding-bottom: 78px;
 }
-.component .container >img {
+.component .container > img {
   width: 20%;
   height: 100%;
 }
 .features .container {
   background-color: #f4f4f4;
+  overflow-x: scroll;
+  display: flex;
 }
-
+.container-title > p {
+  font-size: 22px;
+  margin-bottom: 87px;
+}
+.container-title > h2 {
+  margin-top: 119px;
+  margin-bottom: 46px;
+  padding-right: 196px;
+  font-size: 48px;
+}
+.container-flex {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+  margin-top: 119px;
+  margin-bottom: 56px;
+}
+.botton-scrol {
+  margin-bottom: 82px;
+}
 @media screen and (max-width: 1439px) {
   .header .menu {
     margin-left: 50px;
