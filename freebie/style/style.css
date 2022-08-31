@@ -194,7 +194,7 @@ img {
 }
 .features .container {
   background-color: #f4f4f4;
-  overflow-x: scroll;
+
   display: flex;
 }
 .container-title > p {
@@ -213,9 +213,30 @@ img {
   gap: 39px;
   margin-top: 119px;
   margin-bottom: 56px;
+  overflow-x: scroll;
+}
+.container-flex::-webkit-scrollbar {
+  display: none;
 }
 .botton-scrol {
   margin-bottom: 82px;
+}
+.web-language .container {
+  display: flex;
+  gap: 171px;
+}
+.container-texts > h2 {
+  font-size: 48px;
+}
+.container-texts > p {
+  font-size: 22px;
+  margin-bottom: 48px;
+}
+.container-texts {
+  margin-top: 221px;
+}
+.container-img {
+  margin-top: 176px;
 }
 @media screen and (max-width: 1439px) {
   .header .menu {
@@ -239,6 +260,13 @@ img {
   .hero-banner .container {
     flex-direction: column;
   }
+  .features .container {
+    flex-direction: column;
+  }
+  .web-language .container {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
   .hero-banner .container > div {
     width: 100%;
   }
@@ -248,6 +276,33 @@ img {
   }
   .hero-banner-description {
     margin-bottom: 22px;
+  }
+  .container-flex {
+    margin-top: 22px;
+    margin-bottom: 135px;
+    margin-left: 16px;
+  }
+  .botton-scrol {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 400px;
+  }
+  .container-title > p {
+    margin-bottom: 0;
+  }
+  .container-title > h2 {
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+  .container-texts {
+    margin-top: 30px;
+    margin-left: 10%;
+  }
+  .container-texts > p {
+    margin-bottom: 32px;
+  }
+  .container-img {
+    margin-top: 85px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -286,6 +341,18 @@ img {
   }
   .header .container {
     justify-content: space-between;
+  }
+  .container-title > h2 {
+    font-size: 34px;
+  }
+  .container-title > p {
+    font-size: 16px;
+  }
+  .container-texts > h2 {
+    font-size: 34px;
+  }
+  .container-texts > p {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 576px) {
