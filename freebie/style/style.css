@@ -241,7 +241,6 @@ img {
 .web-linguage-continue .container {
   display: flex;
   gap: 274px;
-  margin-top: 157px;
 }
 .container-texts-flex {
   display: flex;
@@ -250,14 +249,17 @@ img {
 .container-texts2 {
   display: flex;
   flex-direction: column;
+  margin-top: 267px;
 }
 .container-texts2 > h2 {
   font-size: 48px;
   margin-bottom: 98px;
-  margin-top: 110px;
 }
 .container-texts-flex  h2 {
   font-size: 34px;
+}
+.container-img-tutor {
+  margin-top: 157px;
 }
 @media screen and (max-width: 1439px) {
   .header .menu {
@@ -327,13 +329,29 @@ img {
   }
   .web-linguage-continue .container {
     flex-direction: column;
+    gap: 0;
   }
-  .container-texts-flex img {
-    width: 50%;
+  .container-texts-flex .component {
+    width: 10%;
+  }
+  .line-img {
+    width: 100%;
     height: 1px;
   }
   .container-texts-flex {
     flex-direction: column;
+    text-align: center;
+  }
+  .container-texts2 {
+    margin-top: 84px;
+  }
+  .container-texts2 > h2 {
+    margin-bottom: 66px;
+    text-align: center;
+  }
+  .container-img-tutor {
+    text-align: center;
+    margin-top: 57px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -384,6 +402,9 @@ img {
   }
   .container-texts > p {
     font-size: 16px;
+  }
+  .container-texts2 > h2 {
+    font-size: 34px;
   }
 }
 @media screen and (max-width: 576px) {
