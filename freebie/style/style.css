@@ -238,6 +238,27 @@ img {
 .container-img {
   margin-top: 176px;
 }
+.web-linguage-continue .container {
+  display: flex;
+  gap: 274px;
+  margin-top: 157px;
+}
+.container-texts-flex {
+  display: flex;
+  gap: 61px;
+}
+.container-texts2 {
+  display: flex;
+  flex-direction: column;
+}
+.container-texts2 > h2 {
+  font-size: 48px;
+  margin-bottom: 98px;
+  margin-top: 110px;
+}
+.container-texts-flex  h2 {
+  font-size: 34px;
+}
 @media screen and (max-width: 1439px) {
   .header .menu {
     margin-left: 50px;
@@ -303,6 +324,16 @@ img {
   }
   .container-img {
     margin-top: 85px;
+  }
+  .web-linguage-continue .container {
+    flex-direction: column;
+  }
+  .container-texts-flex img {
+    width: 50%;
+    height: 1px;
+  }
+  .container-texts-flex {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 768px) {
