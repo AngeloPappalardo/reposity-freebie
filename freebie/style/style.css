@@ -255,11 +255,87 @@ img {
   font-size: 48px;
   margin-bottom: 98px;
 }
-.container-texts-flex  h2 {
+.container-texts-flex h2 {
   font-size: 34px;
 }
 .container-img-tutor {
   margin-top: 157px;
+}
+.package .container > p {
+  text-align: center;
+  font-size: 22px;
+}
+.package .container > h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 175px;
+}
+.packages {
+  display: flex;
+  gap: 38px;
+  justify-content: center;
+}
+.background {
+  background-color: #f4f4f4;
+  margin-top: 140px;
+  border-radius: 10px;
+}
+.SOFTWARE {
+  background-color: #010101;
+  color: #ffffff;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+.new {
+  display: flex;
+  gap: 58px;
+  align-items: center;
+  margin-left: 47px;
+  margin-bottom: 27px;
+}
+strong {
+  font-size: 48px;
+  font-weight: 700;
+}
+.text {
+text-align: center;
+}
+.paragraph {
+  margin-top: 60px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+.background .button {
+  background-color: #FFFFFF;
+  color:#DDF247 ;
+  border-radius: 10px;
+  padding: 15px 108px;
+  margin: 53px 44px;
+}
+.DEVELOPMENT .button {
+  margin-top: 78px;
+}
+.DEVELOPMENT .paragraph2 {
+  margin-top: 59px;
+}
+.BUSINESS .paragraph2 {
+  margin-top: 56px;
+}
+.SOFTWARE .button {
+  background-color: #DDF247;
+  color: #000000;
+  border-radius: 10px;
+  padding: 15px 108px;
+  margin: 53px 44px;
+}
+.SOFTWARE .paragraph2 {
+  margin-bottom: 33px;
+}
+.paragraph2 {
+  font-size: 22px;
+}
+.FAQs .container {
+  margin-top: 169px;
 }
 @media screen and (max-width: 1439px) {
   .header .menu {
@@ -353,6 +429,16 @@ img {
     text-align: center;
     margin-top: 57px;
   }
+  .packages {
+    flex-direction: column;
+    gap: 0;
+  }
+ .SOFTWARE {
+  margin-top: 30px;
+ }
+ .BUSINESS {
+  margin-top: 30px;
+ }
 }
 @media screen and (max-width: 768px) {
   .title {
