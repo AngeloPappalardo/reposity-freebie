@@ -432,6 +432,7 @@ text-align: center;
   .packages {
     flex-direction: column;
     gap: 0;
+    width: max-content;
   }
  .SOFTWARE {
   margin-top: 30px;
