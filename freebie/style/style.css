@@ -337,6 +337,42 @@ strong {
 .FAQs .container {
   margin-top: 169px;
 }
+.dropdown-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.dropbtn {
+  background-color: #ffffff;
+  border: none;
+}
+.dropdown-content {
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-flex h2 {
+  margin-bottom: 69px;
+  font-size: 34px;
+}
+.dropdown-content p {
+  font-size: 16px;
+  margin-bottom: 53px;
+}
+.FAQs .container > h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 60px;
+}
 @media screen and (max-width: 1439px) {
   .header .menu {
     margin-left: 50px;
@@ -443,6 +479,12 @@ strong {
   .package .container {
     text-align: -webkit-center;
   }
+  .FAQs .container {
+    margin-top: 11px;
+  }
+  .FAQs .container > h2 {
+    margin-bottom: 49px;
+  }
 }
 @media screen and (max-width: 768px) {
   .title {
@@ -496,31 +538,32 @@ strong {
   .container-texts2 > h2 {
     font-size: 34px;
   }
+  .dropdown-flex > h2 {
+    font-size: 21px;
+  }
+  .dropdown-content p {
+    font-size: 19px;
+  }
+  .FAQs .container > h2 {
+    font-size: 34px;
+  }
+  .background .button,
+  .SOFTWARE .button {
+    margin: 45px 33px;
+    padding: 13px 95px;
+  }
+  .paragraph2 {
+    font-size: 19px;
+  }
+  .paragraph {
+    font-size: 21px;
+  }
+  strong {
+    font-size: 42px;
+  }
 }
+
 @media screen and (max-width: 576px) {
 }
 @media screen and (max-width: 420px) {
-}
-.dropdown-flex {
-  display: flex;
-  justify-content: space-between;
-}
-.dropbtn {
-  background-color: #ffffff;
-  border: none;
-}
-.dropdown-content {
-  display: none;
-  z-index: 1;
-}
-
-.dropdown-content p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
