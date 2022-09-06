@@ -377,6 +377,7 @@ strong {
   margin-bottom: 440px;
 }
 .container-yellow {
+  color: #000000;
   text-align: center;
   background: #ddf247;
   transform: translateY(-50%);
